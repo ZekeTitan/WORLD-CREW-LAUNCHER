@@ -1,0 +1,4 @@
+WORLD CREW V0.4 - Correcciones de inicio, animación neón y scroll.
+El port oficial se descarga desde la API de releases de z3xox/Tenkaichi3Decomp.
+Necesitas preparar gamedata con tu propia ISO siguiendo instrucciones oficiales.
+No se garantiza que esto solucione todos los bloqueos del port; revisa logs y dependencias.
