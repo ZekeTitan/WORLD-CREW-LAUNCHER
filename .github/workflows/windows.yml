@@ -1,8 +1,10 @@
-name: Compilar WORLD CREW para Windows
+name: Compilar WORLD CREW v0.2 para Windows
+
 on:
   workflow_dispatch:
   push:
     branches: [main]
+
 jobs:
   build:
     runs-on: windows-latest
@@ -12,10 +14,10 @@ jobs:
         with:
           python-version: '3.12'
       - name: Instalar dependencias
-        run: pip install -r WORLD_CREW_V01/requirements.txt
+        run: pip install -r WORLD_CREW_V02/requirements.txt
       - name: Crear ejecutable
-        run: pyinstaller --noconfirm --clean --onefile --windowed --name WorldCrew --add-data "WORLD_CREW_V01/assets;assets" WORLD_CREW_V01/main.py
+        run: pyinstaller --noconfirm --clean --onefile --windowed --name WorldCrew --add-data "WORLD_CREW_V02/assets;assets" WORLD_CREW_V02/main.py
       - uses: actions/upload-artifact@v4
         with:
-          name: WORLD-CREW-Windows
+          name: WORLD-CREW-Windows-v02
           path: dist/WorldCrew.exe
