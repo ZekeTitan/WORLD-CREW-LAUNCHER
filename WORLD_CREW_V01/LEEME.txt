@@ -1,0 +1,30 @@
+WORLD CREW v0.1 - Launcher creado por Zeke
+
+COMPILAR SIN PYTHON EN TU PC:
+1. Sube el contenido de esta carpeta a tu repositorio WORLD-CREW-LAUNCHER en GitHub.
+   IMPORTANTE: Incluye .github/workflows/windows.yml.
+2. Ve a Actions > Compilar WORLD CREW para Windows > Run workflow.
+3. Abre el resultado de la ejecución y descarga el artefacto WORLD-CREW-Windows.
+4. Descomprime el artefacto y ejecuta WorldCrew.exe.
+
+FUNCIONES:
+- Seleccionar una ISO local del usuario (no se descarga ni comparte).
+- Descargar el ZIP oficial Windows x64 de la última release Tenkaichi3Decomp.
+- Instalar y actualizar en %LOCALAPPDATA%/WorldCrew/WorldCrewRuntime/Tenkaichi3Decomp.
+- Abrir el setup oficial cuando falten los datos del juego.
+- Ejecutar el port instalado.
+- Abrir el Discord oficial configurado.
+- Guardar un registro de operaciones en %LOCALAPPDATA%/WorldCrew/worldcrew.log.
+- Comprobar si hay nueva release del launcher y ofrecer su página de descarga.
+
+LIMITACIONES DE v0.1:
+- Interfaz basada en una imagen con zonas clicables, no es todavía una reproducción responsive de componentes nativos.
+- El sistema de actualización del propio launcher avisa y abre su release: aún no reemplaza automáticamente el exe.
+- No escanea todo el disco por privacidad y rendimiento: detecta su propia instalación y permite escoger otra carpeta.
+- No se ha probado en Windows desde este entorno; primero probar con copia de seguridad de datos y partidas.
+- La biblioteca multijuegos guarda rutas pero la interfaz para abrir cada juego agregado se hará en una siguiente versión.
+- Actualizar el port requiere que el juego esté cerrado; conserva gamedata y archivos personales conocidos.
+- Las descargas se obtienen de las releases oficiales. No se incluye ninguna ISO ni datos del juego.
+
+REPOSITORIO DEL PORT: https://github.com/z3xox/Tenkaichi3Decomp
+DISCORD: https://discord.gg/sznrZU6dT5
