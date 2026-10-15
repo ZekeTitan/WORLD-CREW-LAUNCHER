@@ -1,0 +1,13 @@
+WORLD CREW v0.2 — Launcher creado por Zeke
+
+Esta versión sustituye la imagen estática por pantallas y botones reales.
+Incluye Inicio, Biblioteca, Descargas, Actualizaciones, Ajustes, Soporte y Registro.
+
+Para compilar en tu repositorio actual:
+1. Sube la carpeta WORLD_CREW_V02 completa al nivel de WORLD_CREW_V01.
+2. Sustituye .github/workflows/windows.yml por el incluido en este ZIP.
+3. Abre GitHub Actions y descarga WORLD-CREW-Windows-v02 tras una compilación verde.
+
+No incluye ISO ni datos del juego. Solo descarga releases oficiales reconocibles.
+La instalación del port requiere confirmación. Haz una copia de seguridad antes de actualizar.
+Las actualizaciones automáticas del propio launcher aún no se instalan sin intervención.
